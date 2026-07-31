@@ -15,11 +15,7 @@ SQL analysis of Brazilian e-commerce · PostgreSQL · JOINs · CTEs · window fu
 через SQL: продажи по регионам, топ категории товаров, поведение
 покупателей и влияние доставки на удовлетворённость клиентов.
 
----
 
-## Схема базы данных
-
-![Database schema](schema)
 
 ---
 
