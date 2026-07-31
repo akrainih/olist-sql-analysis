@@ -19,21 +19,9 @@ SQL analysis of Brazilian e-commerce · PostgreSQL · JOINs · CTEs · window fu
 
 ## Схема базы данных
 
-![Database schema](results/schema.png)
+![Database schema](<img width="2486" height="1496" alt="HRhd2Y0" src="https://github.com/user-attachments/assets/1587cf73-d0bf-401f-af17-3fde14ea3a6a" />
+)
 
-## Структура репозитория
-
-olist-sql-analysis/
-├── setup/
-│ ├── create_tables.sql ← создание 9 таблиц
-│ └── load_data.sql ← загрузка данных
-├── queries/
-│ ├── 01_basic.sql ← GROUP BY, WHERE, HAVING
-│ ├── 02_joins.sql ← JOIN между таблицами
-│ ├── 03_cte.sql ← WITH, подзапросы
-│ └── 04_window_functions.sql ← RANK, LAG, NTILE, SUM OVER
-└── results/
-└── screenshots/ ← результаты запросов
 
 ---
 
@@ -58,6 +46,5 @@ olist-sql-analysis/
 
 1. Установить PostgreSQL и pgAdmin
 2. Скачать датасет с [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-3. Создать БД и таблицы: запустить `setup/create_tables.sql`
-4. Загрузить данные: `setup/load_data.sql`
-5. Запускать запросы из папки `queries/`
+3. Создать БД и таблицы: запустить `00_create tables and load data.sql`
+4. Запускать запросы из папки файлов с запросами.
