@@ -19,9 +19,7 @@ SQL analysis of Brazilian e-commerce · PostgreSQL · JOINs · CTEs · window fu
 
 ## Схема базы данных
 
-![Database schema](<img width="2486" height="1496" alt="HRhd2Y0" src="https://github.com/user-attachments/assets/1587cf73-d0bf-401f-af17-3fde14ea3a6a" />
-)
-
+![Database schema](results/schema.png)
 
 ---
 
