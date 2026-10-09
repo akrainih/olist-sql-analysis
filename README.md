@@ -1,5 +1,3 @@
-# olist-sql-analysis
-SQL analysis of Brazilian e-commerce · PostgreSQL · JOINs · CTEs · window functions
 
 # SQL Analysis: Brazilian E-Commerce (Olist)
 
@@ -34,11 +32,3 @@ SQL analysis of Brazilian e-commerce · PostgreSQL · JOINs · CTEs · window fu
 | 04_window_functions.sql | SUM() OVER | Накопительная выручка — когда достигли 1 млн R$ |
 | 04_window_functions.sql | NTILE(4) | Сегментация покупателей по сумме покупок |
 
----
-
-## Как запустить
-
-1. Установить PostgreSQL и pgAdmin
-2. Скачать датасет с [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-3. Создать БД и таблицы: запустить `00_create tables and load data.sql`
-4. Запускать запросы из папки файлов с запросами.
